@@ -22,8 +22,6 @@ flowchart TD
 
 ## Cara Pakai
 
-## Cara Pakai
-
 1. Clone repositori:
 
 ```bash
