@@ -22,4 +22,31 @@ flowchart TD
 
 ## Cara Pakai
 
-(menyusul)
+## Cara Pakai
+
+1. Clone repositori:
+
+```bash
+git clone https://github.com/nadyaarifatus28-ui/uk5-multitier-deploy.git
+cd uk5-multitier-deploy
+```
+
+2. Salin template environment dan isi nilainya:
+
+```bash
+cp env.example .env
+chmod 600 .env
+```
+
+3. Jalankan installer, lalu jalankan sekali lagi untuk membuktikan idempotensi (harus tanpa error):
+
+```bash
+sudo bash deploy.sh
+sudo bash deploy.sh
+```
+
+4. Verifikasi:
+
+```bash
+bash tests/health_check.sh
+```
