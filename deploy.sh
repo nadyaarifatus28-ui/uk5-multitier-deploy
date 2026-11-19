@@ -20,7 +20,7 @@ fi
 if [ -f /etc/os-release ]; then
     source /etc/os-release
 else
-    echo "[ERROR] OS tidak dikenali!" >&2
+    echo "[ERROR] Aduhh!! OS tidak dikenali!" >&2
     exit 1
 fi
 
